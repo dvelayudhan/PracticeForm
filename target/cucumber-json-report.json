@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2873557866,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.setupAction()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "launch-the-automation-practice-form;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 55808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.teardownAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4460839659,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the site home page",
+            "match": {
+              "location": "StartingSteps.i_am_on_the_site_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141443,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hover over Demosites tab",
+            "match": {
+              "location": "HomePageSteps.i_hover_over_Demosites_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Automation Practice Form",
+            "match": {
+              "location": "HomePageSteps.i_click_on_Automation_Practice_Form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126368,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am redirected to the practice form page",
+            "match": {
+              "location": "PracticeFormPageSteps.i_am_redirected_to_the_practice_form_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Setup"
+          }
+        ]
+      }
+    ],
+    "name": "Launch the automation practice form",
+    "description": "",
+    "id": "launch-the-automation-practice-form",
+    "keyword": "Feature",
+    "uri": "00Practiceform.feature"
+  }
+]

@@ -1,0 +1,32 @@
+2016-07-07 15:58:18,670 INFO  [Log] Current url is : http://toolsqa.com/ 
+2016-07-07 15:58:18,671 INFO  [Log] Expected url is : http://toolsqa.com/ 
+2016-07-07 16:29:23,867 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-07 16:29:23,867 INFO  [Log] Initialising driver 
+2016-07-07 16:29:26,642 INFO  [Log] Reading url form properties 
+2016-07-07 16:29:26,644 INFO  [Log] Loading the url 
+2016-07-07 16:29:32,487 INFO  [Log] Asserting if home page is loaded 
+2016-07-07 16:29:32,489 INFO  [Log] Assertion failed 
+2016-07-07 17:27:16,668 INFO  [Log] Initialising driver 
+2016-07-07 17:27:19,607 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-07 17:27:19,607 INFO  [Log] Reading url form properties 
+2016-07-07 17:27:19,608 INFO  [Log] Loading the url 
+2016-07-07 17:27:19,608 INFO  [Log] Just before beforeNavigateTo http://toolsqa.com/ 
+2016-07-07 17:27:24,120 INFO  [Log] Inside the afterNavigateTo to http://toolsqa.com/ 
+2016-07-07 17:27:25,315 INFO  [Log] Asserting if home page is loaded 
+2016-07-07 17:27:25,317 INFO  [Log] Assertion passed 
+2016-07-07 17:27:25,317 INFO  [Log] -EndOfStep- 
+2016-07-07 17:31:24,850 INFO  [Log] Initialising driver 
+2016-07-07 17:31:27,655 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-07 17:31:27,655 INFO  [Log] Reading url form properties 
+2016-07-07 17:31:27,656 INFO  [Log] Loading the url 
+2016-07-07 17:31:27,656 INFO  [Log] Just before beforeNavigateTo null 
+2016-07-07 17:31:27,656 ERROR [Log] Exception occured at null value in entry: url=null 
+2016-07-07 17:31:27,656 ERROR [Log] Assertion failed . Exception caught by try catch block : null value in entry: url=null 
+2016-07-07 17:38:44,095 INFO  [Log] Initialising driver 
+2016-07-07 17:38:46,975 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-07 17:38:46,975 INFO  [Log] Reading url from config file 
+2016-07-07 17:38:46,976 INFO  [Log] Loading the url 
+2016-07-07 17:38:46,976 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-07 17:38:50,134 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-07 17:38:51,364 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-07 17:38:51,364 INFO  [Log] ----EndOfStep---- 
