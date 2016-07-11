@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2873557866,
+  "duration": 2838046019,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,32 +48,32 @@ formatter.match({
   "location": "StartingSteps.i_am_on_the_site_home_page()"
 });
 formatter.result({
-  "duration": 4460839659,
+  "duration": 6909638371,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.i_hover_over_Demosites_tab()"
 });
 formatter.result({
-  "duration": 141443,
+  "duration": 2271397282,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.i_click_on_Automation_Practice_Form()"
 });
 formatter.result({
-  "duration": 67675,
+  "duration": 49072,
   "status": "passed"
 });
 formatter.match({
   "location": "PracticeFormPageSteps.i_am_redirected_to_the_practice_form_page()"
 });
 formatter.result({
-  "duration": 126368,
+  "duration": 81466,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55808,
+  "duration": 22772,
   "status": "passed"
 });
 });

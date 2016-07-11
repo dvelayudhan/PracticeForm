@@ -1,32 +1,113 @@
-2016-07-07 15:58:18,670 INFO  [Log] Current url is : http://toolsqa.com/ 
-2016-07-07 15:58:18,671 INFO  [Log] Expected url is : http://toolsqa.com/ 
-2016-07-07 16:29:23,867 INFO  [Log] $$$ Running step :I am on the site home page 
-2016-07-07 16:29:23,867 INFO  [Log] Initialising driver 
-2016-07-07 16:29:26,642 INFO  [Log] Reading url form properties 
-2016-07-07 16:29:26,644 INFO  [Log] Loading the url 
-2016-07-07 16:29:32,487 INFO  [Log] Asserting if home page is loaded 
-2016-07-07 16:29:32,489 INFO  [Log] Assertion failed 
-2016-07-07 17:27:16,668 INFO  [Log] Initialising driver 
-2016-07-07 17:27:19,607 INFO  [Log] $$$ Running step :I am on the site home page 
-2016-07-07 17:27:19,607 INFO  [Log] Reading url form properties 
-2016-07-07 17:27:19,608 INFO  [Log] Loading the url 
-2016-07-07 17:27:19,608 INFO  [Log] Just before beforeNavigateTo http://toolsqa.com/ 
-2016-07-07 17:27:24,120 INFO  [Log] Inside the afterNavigateTo to http://toolsqa.com/ 
-2016-07-07 17:27:25,315 INFO  [Log] Asserting if home page is loaded 
-2016-07-07 17:27:25,317 INFO  [Log] Assertion passed 
-2016-07-07 17:27:25,317 INFO  [Log] -EndOfStep- 
-2016-07-07 17:31:24,850 INFO  [Log] Initialising driver 
-2016-07-07 17:31:27,655 INFO  [Log] $$$ Running step :I am on the site home page 
-2016-07-07 17:31:27,655 INFO  [Log] Reading url form properties 
-2016-07-07 17:31:27,656 INFO  [Log] Loading the url 
-2016-07-07 17:31:27,656 INFO  [Log] Just before beforeNavigateTo null 
-2016-07-07 17:31:27,656 ERROR [Log] Exception occured at null value in entry: url=null 
-2016-07-07 17:31:27,656 ERROR [Log] Assertion failed . Exception caught by try catch block : null value in entry: url=null 
-2016-07-07 17:38:44,095 INFO  [Log] Initialising driver 
-2016-07-07 17:38:46,975 INFO  [Log] $$$ Running step :I am on the site home page 
-2016-07-07 17:38:46,975 INFO  [Log] Reading url from config file 
-2016-07-07 17:38:46,976 INFO  [Log] Loading the url 
-2016-07-07 17:38:46,976 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
-2016-07-07 17:38:50,134 INFO  [Log] Just after navigated to http://toolsqa.com/ 
-2016-07-07 17:38:51,364 INFO  [Log] Assertion pass : I am on the site home page 
-2016-07-07 17:38:51,364 INFO  [Log] ----EndOfStep---- 
+2016-07-08 17:03:50,172 INFO  [Log] Initialising driver 
+2016-07-08 17:03:53,021 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-08 17:03:53,021 INFO  [Log] Reading url from config file 
+2016-07-08 17:03:53,022 INFO  [Log] Loading the url 
+2016-07-08 17:03:53,022 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-08 17:03:55,978 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-08 17:03:57,192 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-08 17:03:57,192 INFO  [Log] ----EndOfStep---- 
+2016-07-08 17:03:57,194 INFO  [Log] $$$ Running step :I hover over Demosites tab and click on option 
+2016-07-08 17:03:57,196 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-08 17:03:57,224 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-08 17:03:57,263 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-08 17:03:57,279 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-08 17:03:57,280 INFO  [Log] About to click on the [[ChromeDriver: chrome on XP (1b20af7aff85212b0324a1b54c46b91d)] -> xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a] 
+2016-07-08 17:03:57,304 ERROR [Log] Exception occured at element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LONGLHVML000200', ip: '10.242.30.60', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\DVELAY~1\AppData\Local\Temp\scoped_dir16284_10556}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1b20af7aff85212b0324a1b54c46b91d 
+2016-07-11 17:09:18,576 INFO  [Log] Initialising driver 
+2016-07-11 17:09:21,497 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-11 17:09:21,497 INFO  [Log] Reading url from config file 
+2016-07-11 17:09:21,504 INFO  [Log] Loading the url 
+2016-07-11 17:09:21,504 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-11 17:09:25,274 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-11 17:09:26,465 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-11 17:09:26,466 INFO  [Log] ----EndOfStep---- 
+2016-07-11 17:09:26,468 INFO  [Log] $$$ Running step :I hover over Demosites tab and click on option 
+2016-07-11 17:09:26,477 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:09:26,498 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:09:26,545 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:09:26,563 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:09:26,563 INFO  [Log] About to click on the [[ChromeDriver: chrome on XP (ba53ea5d3070b0831caf69f0d32d121e)] -> xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a] 
+2016-07-11 17:09:26,588 ERROR [Log] Exception occured at element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LONGLHVML000200', ip: '10.242.30.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\DVELAY~1\AppData\Local\Temp\scoped_dir21852_9568}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba53ea5d3070b0831caf69f0d32d121e 
+2016-07-11 17:17:16,628 INFO  [Log] Initialising driver 
+2016-07-11 17:17:19,515 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-11 17:17:19,515 INFO  [Log] Reading url from config file 
+2016-07-11 17:17:19,516 INFO  [Log] Loading the url 
+2016-07-11 17:17:19,516 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-11 17:17:22,729 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-11 17:17:23,923 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-11 17:17:23,924 INFO  [Log] ----EndOfStep---- 
+2016-07-11 17:17:23,926 INFO  [Log] $$$ Running step :I hover over Demosites tab and click on option 
+2016-07-11 17:17:23,928 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:17:23,949 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:17:23,988 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:17:24,004 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:17:24,004 INFO  [Log] About to click on the element 
+2016-07-11 17:17:24,025 ERROR [Log] Exception occured at element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LONGLHVML000200', ip: '10.242.30.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\DVELAY~1\AppData\Local\Temp\scoped_dir13644_19403}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5f407835d83501fed7f3598ef9cb4771 
+2016-07-11 17:32:22,777 INFO  [Log] Initialising driver 
+2016-07-11 17:32:25,606 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-11 17:32:25,607 INFO  [Log] Reading url from config file 
+2016-07-11 17:32:25,607 INFO  [Log] Loading the url 
+2016-07-11 17:32:25,607 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-11 17:32:28,617 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-11 17:32:29,841 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-11 17:32:29,841 INFO  [Log] ----EndOfStep---- 
+2016-07-11 17:32:29,844 INFO  [Log] $$$ Running step :I hover over Demosites tab and click on option 
+2016-07-11 17:32:29,848 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:32:29,874 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:32:29,932 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:32:29,955 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:32:29,955 INFO  [Log] About to click on the element 
+2016-07-11 17:32:29,981 ERROR [Log] Exception occured at element not visible
+  (Session info: chrome=51.0.2704.103)
+  (Driver info: chromedriver=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'LONGLHVML000200', ip: '10.242.30.55', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397933 (1cab651507b88dec79b2b2a22d1943c01833cc1b), userDataDir=C:\Users\DVELAY~1\AppData\Local\Temp\scoped_dir17976_4046}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ad8c099cb4f01da1a62c8c5e3800b74a 
+2016-07-11 17:33:44,628 INFO  [Log] Initialising driver 
+2016-07-11 17:33:47,472 INFO  [Log] $$$ Running step :I am on the site home page 
+2016-07-11 17:33:47,472 INFO  [Log] Reading url from config file 
+2016-07-11 17:33:47,473 INFO  [Log] Loading the url 
+2016-07-11 17:33:47,473 INFO  [Log] Just before navigating to  http://toolsqa.com/ 
+2016-07-11 17:33:53,122 INFO  [Log] Just after navigated to http://toolsqa.com/ 
+2016-07-11 17:33:54,305 INFO  [Log] Assertion pass : I am on the site home page 
+2016-07-11 17:33:54,305 INFO  [Log] ----EndOfStep---- 
+2016-07-11 17:33:54,306 INFO  [Log] $$$ Running step :I hover over Demosites tab and click on option 
+2016-07-11 17:33:54,314 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:33:54,338 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:33:54,346 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:33:54,380 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/a 
+2016-07-11 17:33:54,418 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:54,437 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:54,950 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:54,972 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:54,997 INFO  [Log] Just before finding element By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:55,026 INFO  [Log] Find happened on By.xpath: //ul[@id='main-nav']/li[9]/ul/li[3]/a 
+2016-07-11 17:33:55,026 INFO  [Log] About to click on the element 
+2016-07-11 17:33:56,577 INFO  [Log] inside method afterClickOn on  

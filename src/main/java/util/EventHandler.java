@@ -14,18 +14,17 @@ public class EventHandler implements WebDriverEventListener{
  
 	public void afterClickOn(WebElement arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		Log.info("inside method afterClickOn on " + arg0.toString());
+		Log.info("inside method afterClickOn on " );
 	}
  
 	public void afterFindBy(By arg0, WebElement arg1, WebDriver arg2) {
 		// TODO Auto-generated method stub
-		Log.info("Find happened on " + arg1.toString() 
-				+ " Using method " + arg0.toString());
+		Log.info("Find happened on " + arg0.toString());
+		
 	}
  
 	public void afterNavigateBack(WebDriver arg0) {
-		// TODO Auto-generated method stub
- 
+		// TODO Auto-generated method stub 
 		Log.info("Inside the after navigateback to " + arg0.getCurrentUrl());
 	}
  
@@ -57,13 +56,14 @@ public class EventHandler implements WebDriverEventListener{
  
 	public void beforeClickOn(WebElement arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub
-		Log.info("About to click on the " + arg0.toString());
+		Log.info("About to click on the element");
  
 	}
  
-	public void beforeFindBy(By arg0, WebElement arg1, WebDriver arg2) {
+	public void beforeFindBy(By arg0 , WebElement arg1, WebDriver arg2) {
 		// TODO Auto-generated method stub
-		Log.info("Just before finding element " + arg1.toString());
+		Log.info("Just before finding element " + arg0.toString());
+		
  
 	}
  
